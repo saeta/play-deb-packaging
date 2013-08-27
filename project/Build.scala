@@ -32,8 +32,7 @@ object ApplicationBuild extends Build {
     maintainer in Debian := "Brennan Saeta <saeta@coursera.org>",
     name in Debian <<= name("coursera-" + _),  // We prefix the names so that they are all easily searched
     packageSummary in Debian <<= name(n => "Coursera's %s service" format n),
-    packageDescription in Debian := """A sample service demonstrating how to package a Play! application
-                                      |using SBT in Coursera's standard format.""".stripMargin,
+    packageDescription in Debian := "A sample service demonstrating how to package a Play! app.",
     linuxPackageMappings in Debian <<= (dist, normalizedName, version) map { (dist, id, version) =>
       val tmpdir = IO.createTemporaryDirectory
       IO.unzip(dist, tmpdir)

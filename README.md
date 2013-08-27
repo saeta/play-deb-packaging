@@ -1,6 +1,6 @@
 # Sample Play! Deb Packaging #
 
-This repo is a sample Play! 2.1 project that packages itself according to Coursera's typical best practices. For an overview, please see: [Deploying Play! Apps](http://betacs.pro/blog/2013/08/03/deploying-play-apps/). To package this Play! app, simply run `deb` from the Play! interactive console.
+This repo is a sample Play! 2.1 project that packages itself according to Coursera's typical best practices. For an overview, please see: [Deploying Play! Apps](http://betacs.pro/blog/2013/08/03/deploying-play-apps/). To package this Play! app, simply run `deb` from the Play! interactive console. You will find the generated deb inside the `target` folder.
 
 Note: Within Coursera, packaging, helpers and more are shared between projects using the "PlayCour" plugin. e.g. A typical `project/plugins.sbt` file would have the following line appended:
 
