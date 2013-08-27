@@ -1,4 +1,4 @@
-# Sample Play! Deb Packaging #
+# Sample Play! Deb Packaging Snapshot #
 
 This repo is a sample Play! 2.1 project that packages itself according to Coursera's typical best practices. For an overview, please see: [Deploying Play! Apps](http://betacs.pro/blog/2013/08/03/deploying-play-apps/). To package this Play! app, simply run `deb` from the Play! interactive console. You will find the generated deb inside the `target` folder.
 
@@ -20,3 +20,10 @@ Note: the SBT Native Packager relies on tools such as `fakeroot` to be installed
 ```
 
 you probably don't have the appropriate tools installed. Consider running this command inside an Ubuntu-based machine. If you are having trouble, let me know!
+
+
+## What is a snapshot? ##
+
+A "snapshot" is a an export of a part of our codebase at a particular point in time. It is not necessarily complete, nor is it guaranteed to be runnable. 
+It is also liable to be out of date with our current codebase, and it is possible that we will not update the snapshot in the future.
+To read more about why we are sharing this as a snapshot, please read this [blog post](http://blog.pamelafox.org/2013/03/source-snapshots.html).
